@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66169F7F2A5475E400704BAC /* TravelPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66169F7E2A5475E300704BAC /* TravelPreferencesView.swift */; };
+		664DA5702A52749F00016371 /* ActivityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DA56F2A52749F00016371 /* ActivityDetailsView.swift */; };
+		664DA5732A52B3FF00016371 /* CitiesInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DA5722A52B3FF00016371 /* CitiesInputView.swift */; };
+		664DA5752A52B43100016371 /* InputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DA5742A52B43100016371 /* InputModel.swift */; };
+		664DA5772A533C7F00016371 /* DateInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DA5762A533C7F00016371 /* DateInputView.swift */; };
+		665566B12A5087BB002E6E9A /* SayahatAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566B02A5087BB002E6E9A /* SayahatAIApp.swift */; };
+		665566B32A5087BB002E6E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566B22A5087BB002E6E9A /* ContentView.swift */; };
+		665566B82A5087BE002E6E9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665566B72A5087BE002E6E9A /* Preview Assets.xcassets */; };
+		665566C02A508800002E6E9A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566BF2A508800002E6E9A /* MainTabView.swift */; };
+		665566C92A508824002E6E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665566C42A508823002E6E9A /* Assets.xcassets */; };
+		665566CE2A508844002E6E9A /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566CC2A508843002E6E9A /* ChatViewModel.swift */; };
+		665566D52A508851002E6E9A /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566D12A508851002E6E9A /* TripModel.swift */; };
+		665566D62A508851002E6E9A /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566D22A508851002E6E9A /* TripsView.swift */; };
+		665566D82A508851002E6E9A /* InsertFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566D42A508851002E6E9A /* InsertFormView.swift */; };
+		665566DB2A508871002E6E9A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665566DA2A508871002E6E9A /* Colors.swift */; };
+		66733ADA2A513E8F00C4BA2E /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 66733AD92A513E8F00C4BA2E /* CombineMoya */; };
+		66733ADC2A513E8F00C4BA2E /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 66733ADB2A513E8F00C4BA2E /* Moya */; };
+		66733ADE2A513E8F00C4BA2E /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 66733ADD2A513E8F00C4BA2E /* ReactiveMoya */; };
+		66733AE02A513E8F00C4BA2E /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 66733ADF2A513E8F00C4BA2E /* RxMoya */; };
+		66733AE52A518EEF00C4BA2E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66733AE42A518EEF00C4BA2E /* MapView.swift */; };
+		66733AE92A519BA200C4BA2E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66733AE82A519BA200C4BA2E /* ChatView.swift */; };
+		66733AEB2A519BCC00C4BA2E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66733AEA2A519BCC00C4BA2E /* AccountView.swift */; };
+		66733AED2A51DB0400C4BA2E /* DaysPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66733AEC2A51DB0300C4BA2E /* DaysPlanView.swift */; };
+		66D207F52A552A1400F4EC63 /* OnboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D207F42A552A1400F4EC63 /* OnboardManager.swift */; };
+		66D207F72A552A3B00F4EC63 /* AppDataLocalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D207F62A552A3B00F4EC63 /* AppDataLocalAPI.swift */; };
+		66D208002A552E9B00F4EC63 /* IntroMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D207FF2A552E9B00F4EC63 /* IntroMainView.swift */; };
+		66D208022A55324A00F4EC63 /* IntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D208012A55324A00F4EC63 /* IntroModel.swift */; };
+		66F0E3BB2A5551B000C3D13C /* IntroItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0E3BA2A5551B000C3D13C /* IntroItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66169F7E2A5475E300704BAC /* TravelPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPreferencesView.swift; sourceTree = "<group>"; };
+		664DA56F2A52749F00016371 /* ActivityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsView.swift; sourceTree = "<group>"; };
+		664DA5722A52B3FF00016371 /* CitiesInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesInputView.swift; sourceTree = "<group>"; };
+		664DA5742A52B43100016371 /* InputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputModel.swift; sourceTree = "<group>"; };
+		664DA5762A533C7F00016371 /* DateInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputView.swift; sourceTree = "<group>"; };
+		665566AD2A5087BB002E6E9A /* SayahatAIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayahatAIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665566B02A5087BB002E6E9A /* SayahatAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayahatAIApp.swift; sourceTree = "<group>"; };
+		665566B22A5087BB002E6E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		665566B72A5087BE002E6E9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		665566BF2A508800002E6E9A /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		665566C42A508823002E6E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SayahatAI/SayahatAI/Assets.xcassets; sourceTree = "<group>"; };
+		665566CC2A508843002E6E9A /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		665566D12A508851002E6E9A /* TripModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		665566D22A508851002E6E9A /* TripsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		665566D42A508851002E6E9A /* InsertFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertFormView.swift; sourceTree = "<group>"; };
+		665566DA2A508871002E6E9A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		66733AE42A518EEF00C4BA2E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		66733AE82A519BA200C4BA2E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		66733AEA2A519BCC00C4BA2E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		66733AEC2A51DB0300C4BA2E /* DaysPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysPlanView.swift; sourceTree = "<group>"; };
+		66D207F42A552A1400F4EC63 /* OnboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardManager.swift; sourceTree = "<group>"; };
+		66D207F62A552A3B00F4EC63 /* AppDataLocalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataLocalAPI.swift; sourceTree = "<group>"; };
+		66D207FF2A552E9B00F4EC63 /* IntroMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroMainView.swift; sourceTree = "<group>"; };
+		66D208012A55324A00F4EC63 /* IntroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroModel.swift; sourceTree = "<group>"; };
+		66F0E3BA2A5551B000C3D13C /* IntroItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665566AA2A5087BB002E6E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66733ADC2A513E8F00C4BA2E /* Moya in Frameworks */,
+				66733ADA2A513E8F00C4BA2E /* CombineMoya in Frameworks */,
+				66733AE02A513E8F00C4BA2E /* RxMoya in Frameworks */,
+				66733ADE2A513E8F00C4BA2E /* ReactiveMoya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664DA5712A52B3D400016371 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				664DA5722A52B3FF00016371 /* CitiesInputView.swift */,
+				664DA5742A52B43100016371 /* InputModel.swift */,
+				664DA5762A533C7F00016371 /* DateInputView.swift */,
+				66169F7E2A5475E300704BAC /* TravelPreferencesView.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		665566A42A5087BB002E6E9A = {
+			isa = PBXGroup;
+			children = (
+				665566AF2A5087BB002E6E9A /* SayahatAIApp */,
+				665566AE2A5087BB002E6E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665566AE2A5087BB002E6E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665566AD2A5087BB002E6E9A /* SayahatAIApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665566AF2A5087BB002E6E9A /* SayahatAIApp */ = {
+			isa = PBXGroup;
+			children = (
+				66F0E3BC2A55795100C3D13C /* Authorization */,
+				66D207F82A552B9400F4EC63 /* Intro */,
+				664DA5712A52B3D400016371 /* Input */,
+				66733AE32A518EE000C4BA2E /* Map */,
+				66733AD72A5134E200C4BA2E /* Trips */,
+				665566B02A5087BB002E6E9A /* SayahatAIApp.swift */,
+				665566E02A508A9A002E6E9A /* Account */,
+				665566C42A508823002E6E9A /* Assets.xcassets */,
+				665566D92A508871002E6E9A /* Globals */,
+				665566D02A508851002E6E9A /* Home */,
+				665566CB2A508843002E6E9A /* Chat */,
+				665566BE2A508800002E6E9A /* Tab */,
+				665566B22A5087BB002E6E9A /* ContentView.swift */,
+				665566B62A5087BE002E6E9A /* Preview Content */,
+				66D207F42A552A1400F4EC63 /* OnboardManager.swift */,
+				66D207F62A552A3B00F4EC63 /* AppDataLocalAPI.swift */,
+			);
+			path = SayahatAIApp;
+			sourceTree = "<group>";
+		};
+		665566B62A5087BE002E6E9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				665566B72A5087BE002E6E9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		665566BE2A508800002E6E9A /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				665566BF2A508800002E6E9A /* MainTabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		665566CB2A508843002E6E9A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				665566CC2A508843002E6E9A /* ChatViewModel.swift */,
+				66733AE82A519BA200C4BA2E /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		665566D02A508851002E6E9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				665566D42A508851002E6E9A /* InsertFormView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		665566D92A508871002E6E9A /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				665566DA2A508871002E6E9A /* Colors.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		665566E02A508A9A002E6E9A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				66733AEA2A519BCC00C4BA2E /* AccountView.swift */,
+			);
+			name = Account;
+			path = SayahatAIApp/Account;
+			sourceTree = SOURCE_ROOT;
+		};
+		66733AD72A5134E200C4BA2E /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				665566D22A508851002E6E9A /* TripsView.swift */,
+				665566D12A508851002E6E9A /* TripModel.swift */,
+				664DA56F2A52749F00016371 /* ActivityDetailsView.swift */,
+				66733AEC2A51DB0300C4BA2E /* DaysPlanView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		66733AE32A518EE000C4BA2E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				66733AE42A518EEF00C4BA2E /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		66D207F82A552B9400F4EC63 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				66D207FF2A552E9B00F4EC63 /* IntroMainView.swift */,
+				66D208012A55324A00F4EC63 /* IntroModel.swift */,
+				66F0E3BA2A5551B000C3D13C /* IntroItemView.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		66F0E3BC2A55795100C3D13C /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665566AC2A5087BB002E6E9A /* SayahatAIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665566BB2A5087BE002E6E9A /* Build configuration list for PBXNativeTarget "SayahatAIApp" */;
+			buildPhases = (
+				665566A92A5087BB002E6E9A /* Sources */,
+				665566AA2A5087BB002E6E9A /* Frameworks */,
+				665566AB2A5087BB002E6E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayahatAIApp;
+			packageProductDependencies = (
+				66733AD92A513E8F00C4BA2E /* CombineMoya */,
+				66733ADB2A513E8F00C4BA2E /* Moya */,
+				66733ADD2A513E8F00C4BA2E /* ReactiveMoya */,
+				66733ADF2A513E8F00C4BA2E /* RxMoya */,
+			);
+			productName = SayahatAIApp;
+			productReference = 665566AD2A5087BB002E6E9A /* SayahatAIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665566A52A5087BB002E6E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					665566AC2A5087BB002E6E9A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 665566A82A5087BB002E6E9A /* Build configuration list for PBXProject "SayahatAIApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665566A42A5087BB002E6E9A;
+			packageReferences = (
+				66733AD82A513E8F00C4BA2E /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = 665566AE2A5087BB002E6E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665566AC2A5087BB002E6E9A /* SayahatAIApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665566AB2A5087BB002E6E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665566B82A5087BE002E6E9A /* Preview Assets.xcassets in Resources */,
+				665566C92A508824002E6E9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665566A92A5087BB002E6E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66169F7F2A5475E400704BAC /* TravelPreferencesView.swift in Sources */,
+				665566D62A508851002E6E9A /* TripsView.swift in Sources */,
+				665566DB2A508871002E6E9A /* Colors.swift in Sources */,
+				66733AED2A51DB0400C4BA2E /* DaysPlanView.swift in Sources */,
+				66F0E3BB2A5551B000C3D13C /* IntroItemView.swift in Sources */,
+				665566B32A5087BB002E6E9A /* ContentView.swift in Sources */,
+				66733AE52A518EEF00C4BA2E /* MapView.swift in Sources */,
+				665566D52A508851002E6E9A /* TripModel.swift in Sources */,
+				664DA5702A52749F00016371 /* ActivityDetailsView.swift in Sources */,
+				664DA5772A533C7F00016371 /* DateInputView.swift in Sources */,
+				66733AE92A519BA200C4BA2E /* ChatView.swift in Sources */,
+				66D208022A55324A00F4EC63 /* IntroModel.swift in Sources */,
+				66D208002A552E9B00F4EC63 /* IntroMainView.swift in Sources */,
+				665566B12A5087BB002E6E9A /* SayahatAIApp.swift in Sources */,
+				665566D82A508851002E6E9A /* InsertFormView.swift in Sources */,
+				66D207F72A552A3B00F4EC63 /* AppDataLocalAPI.swift in Sources */,
+				665566CE2A508844002E6E9A /* ChatViewModel.swift in Sources */,
+				664DA5752A52B43100016371 /* InputModel.swift in Sources */,
+				664DA5732A52B3FF00016371 /* CitiesInputView.swift in Sources */,
+				66D207F52A552A1400F4EC63 /* OnboardManager.swift in Sources */,
+				66733AEB2A519BCC00C4BA2E /* AccountView.swift in Sources */,
+				665566C02A508800002E6E9A /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		665566B92A5087BE002E6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665566BA2A5087BE002E6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665566BC2A5087BE002E6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SayahatAIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		665566BD2A5087BE002E6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SayahatAIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665566A82A5087BB002E6E9A /* Build configuration list for PBXProject "SayahatAIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665566B92A5087BE002E6E9A /* Debug */,
+				665566BA2A5087BE002E6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665566BB2A5087BE002E6E9A /* Build configuration list for PBXNativeTarget "SayahatAIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665566BC2A5087BE002E6E9A /* Debug */,
+				665566BD2A5087BE002E6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66733AD82A513E8F00C4BA2E /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66733AD92A513E8F00C4BA2E /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66733AD82A513E8F00C4BA2E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		66733ADB2A513E8F00C4BA2E /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66733AD82A513E8F00C4BA2E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		66733ADD2A513E8F00C4BA2E /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66733AD82A513E8F00C4BA2E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		66733ADF2A513E8F00C4BA2E /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66733AD82A513E8F00C4BA2E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 665566A52A5087BB002E6E9A /* Project object */;
+}
